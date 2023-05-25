@@ -59,4 +59,66 @@ perceptron_veri_dogrulama(ogrenme_hizi, epoch_sayisi, agirliklar):
     """
     ...
 
+rwerrfsdfsdfsdfsdfsdfsdfsdfsd
 
+
+
+
+This project trains a Perceptron model and makes predictions on test data.
+
+## Project Functionality
+
+This code implements the Perceptron learning algorithm and trains a model using a given dataset. It also makes predictions on test data and calculates the accuracy of the predictions.
+
+## Usage
+
+To use this project, you will need a dataset. The dataset can be in CSV format or a similar format.
+
+```python
+txt_yukle(file): 
+    """
+    This function loads a CSV file and converts all the data into floating-point numbers.
+    """
+    ...
+
+tahmin_et(row, weights):
+    """
+    This function makes predictions for each data point.
+    """
+    ...
+
+agirliklari_egit(training_data, learning_rate, epoch_count, weights):
+    """
+    This function updates the weights of the model using the training data.
+    """
+    ...
+
+test_verisini_test_et(test_data, weights):
+    """
+    This function makes predictions on the test data.
+    """
+    ...
+
+test_dataset(test_data, weights):
+    """
+    This function calculates the accuracy of the predictions.
+    """
+    ...
+
+k_fold_cross_validation(dataset, k, learning_rate, n_epoch, weights):
+    """
+    This function evaluates the accuracy of the model using k-fold cross validation.
+    """
+    ...
+
+kullanıcıdan_agirlik_al():
+    """
+    This function prompts the user to enter the bias value and initial weights.
+    """
+    ...
+
+perceptron_veri_dogrulama(learning_rate, epoch_count, weights):
+    """
+    This main function trains and tests the Perceptron model using the provided functions.
+    """
+    ...
