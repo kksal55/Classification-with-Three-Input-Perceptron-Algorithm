@@ -58,11 +58,11 @@ perceptron_veri_dogrulama(ogrenme_hizi, epoch_sayisi, agirliklar):
     Bu ana fonksiyon, yukarıdaki tüm fonksiyonları kullanarak Perceptron modelini eğitir ve test eder.
     """
     ...
-
-rwerrfsdfsdfsdfsdfsdfsdfsdfsd
-
+```
 
 
+
+# Perceptron Classification Model
 
 This project trains a Perceptron model and makes predictions on test data.
 
